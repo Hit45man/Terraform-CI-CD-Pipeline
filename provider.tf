@@ -11,10 +11,7 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"
-  assume_role {
-    role_arn     = "arn:aws:iam::772470449893:role/EC2-jenkins-role"
-    session_name = "SESSION_NAME"
-    external_id  = "EXTERNAL_ID"
-  }
+  access_key = var.access_key
+  secret_key = var.secret_key
 
 }
