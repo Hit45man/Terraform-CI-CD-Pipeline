@@ -1,4 +1,7 @@
-
+variable "ami" {
+  type    = string
+  default = "ami-009e46eef82e25fef"
+}
 
 variable "instance_type" {
   type    = string
