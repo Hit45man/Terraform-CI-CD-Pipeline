@@ -1,7 +1,4 @@
-variable "ami" {
-  type    = string
-  default = "ami-08bca0a1996622bee"
-}
+
 
 variable "instance_type" {
   type    = string
