@@ -26,14 +26,3 @@ variable "tags" {
   }
 }
 
-variable "access_key" {
-  type = string
-  default = "AKIA3HWWTU3SQW6DOTH2"
-  
-}
-
-variable "secret_key" {
-  type = string
-  default = "VmKb4A3DtehQNxSUc/PYiTFREXB/Mdqj0Mt6tyw2"
-  
-}
