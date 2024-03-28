@@ -26,10 +26,10 @@ variable "tags" {
   }
 }
 
-variable "access_key" {
-  default = "AKIA3HWWTU3SQW6DOTH2"
-}
+# variable "access_key" {
+#   default = "AKIA3HWWTU3SQW6DOTH2"
+# }
 
-variable "secret_key" {
-  default = "VmKb4A3DtehQNxSUc/PYiTFREXB/Mdqj0Mt6tyw2"
-}
+# variable "secret_key" {
+#   default = "VmKb4A3DtehQNxSUc/PYiTFREXB/Mdqj0Mt6tyw2"
+# }
