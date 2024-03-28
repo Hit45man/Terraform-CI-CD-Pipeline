@@ -20,5 +20,5 @@ func TestTerraformAWSInstance(t *testing.T) {
 	createdBy := terraform.Output(t, terraformOptions, "created_by")
 
 	assert.Equal(t, "t2.micro", instanceType)
-	assert.Equal(t, "Palak", createdBy)
+	assert.Equal(t, "Rohit", createdBy)
 }

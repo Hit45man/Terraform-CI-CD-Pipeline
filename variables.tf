@@ -1,6 +1,6 @@
 variable "ami" {
   type    = string
-  default = "ami-080e1f13689e07408"
+  default = "ami-08bca0a1996622bee"
 }
 
 variable "instance_type" {
@@ -22,8 +22,14 @@ variable "tags" {
   type = map(string)
   default = {
     name       = "test"
-    created_by = "Palak"
+    created_by = "Rohit"
   }
 }
 
+variable "access_key" {
+  default = "AKIA3HWWTU3SQW6DOTH2"
+}
 
+variable "secret_key" {
+  default = "VmKb4A3DtehQNxSUc/PYiTFREXB/Mdqj0Mt6tyw2"
+}
