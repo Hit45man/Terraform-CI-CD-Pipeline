@@ -32,7 +32,7 @@ pipeline {
             steps {
                     sh 'terraform init'
                     sh 'terraform plan -out=tfplan'
-                    sh 'terraform apply -auto-approve tfplan'
+                    sh 'terraform destroy -auto-approve tfplan'
             }
         }   
     }
