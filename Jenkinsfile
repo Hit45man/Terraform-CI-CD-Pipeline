@@ -31,8 +31,8 @@ pipeline {
         stage('Terraform workflow') {
             steps {
                     sh 'terraform init'
-                    sh 'terraform plan -out=tfplan'
-                    sh 'terraform apply -auto-approve tfplan'
+                    sh 'terraform plan '
+                    sh 'terraform apply -auto-approve '
             }
         }   
     }
